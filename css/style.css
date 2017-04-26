@@ -203,6 +203,47 @@ menu a {
 	color: #fff;
 }
 
+/*------------------ SECOND-PART ---------------------*/
+
+.second-part {
+	padding: 70px 0 80px 0;
+}
+
+.second-part .box ul {
+	display: inline-block;
+	max-width: 460px;
+	vertical-align: top;
+	padding: 20px;
+}
+
+.second-part .box li {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 55px;
+}
+
+.second-part .box ul:nth-child(2) li:nth-child(2) {
+	padding-top: 20px;
+}
+
+.second-part .box ul:nth-child(2) li:nth-child(3) {
+	padding-top: 30px;
+}
+
+.second-part .box img {
+	float: left;
+	
+}
+
+.second-part .box p {
+	margin-left: 100px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.second-part .box ul:nth-child(2) li:nth-child(2) p {
+	padding-top: 15px;
+}
 
 
 
