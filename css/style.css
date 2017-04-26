@@ -91,6 +91,7 @@ menu a {
 	right: 0;
 	width: 275px;
 	text-align: left;	
+	margin-top: 10px;
 }
 
 .first-part .contact p {
@@ -99,7 +100,7 @@ menu a {
 	
 }
 
-/* 23 * 13 */
+/* красные квадратики в горизонтальную линию / red squares in horizontal line */
 .first-part .contact:after {
 	content: "";
 	display: block;
@@ -115,8 +116,10 @@ menu a {
 	text-align: right;
 	font-size: 26px;
 	padding-right: 20px;
+	margin: 10px 0 5px 0;
 }
 
+/* телефончег с часиками / phone with clock */
 .first-part .contact p:nth-child(2):before {
 	content: "";
 	display: inline-block;
@@ -125,7 +128,7 @@ menu a {
 	height: 23px;
 	position: absolute;
 	left: 0;
-	bottom: 30px;
+	bottom: 40px;
 }
 
 .first-part .contact a {
