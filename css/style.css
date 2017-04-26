@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 965px;
+	margin: auto;
+}
+
+p,
+ul {
+	font-size: 23px;
+	font-family: 'Proba W01 Regular', 'fallback-font';
+}
+
+h3 {
+	font-size: 52px;
+	line-height: 1.5em;
+	font-family: 'Proba W01 Regular', 'fallback-font';
+}
+
