@@ -21,8 +21,8 @@ ul {
 }
 
 h3 {
-	font-size: 52px;
-	line-height: 1.5em;
+	font-size: 47px;
+/*	line-height: 1.5em;*/
 	font-family: 'Proba W01 Regular', 'fallback-font';
 }
 
@@ -138,6 +138,25 @@ menu a {
 	display: block;
 	border-bottom: 2px dashed black;
 	width: 95%;
+}
+
+.first-part .box {
+	position: absolute;
+	top: 220px;
+	margin-left: 20px;
+	background-color: #fff;
+	padding: 35px 70px;
+	transform: skewX(-20deg);
+}
+
+.first-part .box h3,
+.first-part .box p {
+	transform: skewX(20deg);
+	margin-left: -35px;
+}
+
+.first-part .box p {
+	font-size: 27px;
 }
 
 
