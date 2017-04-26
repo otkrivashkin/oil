@@ -10,6 +10,10 @@
 	margin: auto;
 }
 
+.clear {
+	overflow: hidden;
+}
+
 p,
 ul {
 	font-size: 23px;
@@ -34,16 +38,129 @@ menu ul {
 
 menu li {
 	display: inline-block;
+	margin: 16px 0;
+}
+
+menu li:nth-child(-n+2) {
+	margin-right: 12px;
 }
 
 menu li:after {
 	content: "";
 	display: block;
-	border-bottom: 3px dashed #695938;
-	margin-bottom: 10px;
-	color: white;
+	border-bottom: 2px dashed #695938;
+	color: #fff;
 }
 menu a {
 	display: inline-block;
 	color: #fff;
 }
+
+/*---------------- FIRST-PART ------------------*/
+
+.first-part .bg-image {
+	background: url(../img/bg/bg_bigmagazine.jpg) no-repeat 0 0 fixed;
+	background-size: contain;
+	height: 936px;
+}
+
+.first-part .container {
+	position: relative;
+}
+
+.first-part .logo {
+	position: absolute;
+	background-color: #fff;
+	padding: 50px;
+	margin-left: 60px;
+}
+
+.first-part .logo:after {
+	content: "Authorized Distributor of";
+	display: inline;
+	font-size: 15px;
+	color: #db422c;
+	font-style: italic;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+
+.first-part .contact {
+	position: absolute;
+	right: 0;
+	width: 275px;
+	text-align: left;	
+}
+
+.first-part .contact p {
+	font-size: 18px;
+	margin: -2px;
+	
+}
+
+/* 23 * 13 */
+.first-part .contact:after {
+	content: "";
+	display: block;
+	background: url(../img/figure/red_dash_square.png) no-repeat;
+	height: 13px;
+	width: 196px;
+	top: 25px;
+	right: 5px;
+	position: absolute;
+}
+
+.first-part .contact p:nth-child(2) {
+	text-align: right;
+	font-size: 26px;
+	padding-right: 20px;
+}
+
+.first-part .contact p:nth-child(2):before {
+	content: "";
+	display: inline-block;
+	background: url(../img/icon/phone_clock.png) no-repeat 0 0;
+	width: 25px;
+	height: 23px;
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+}
+
+.first-part .contact a {
+	font-size: 23px;
+	color: #000;
+}
+
+.first-part .contact a:after {
+	content: "";
+	display: block;
+	border-bottom: 2px dashed black;
+	width: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
