@@ -245,12 +245,67 @@ menu a {
 	padding-top: 15px;
 }
 
+/*----------------- THIRD-PART ---------------------*/
 
+.third-part {
+/*	background-color: #0f0f0f;*/
+	height: 415px;
+}
 
+.third-part p {
+	color: #fff;
+}
 
+.third-part li {
+	display: inline-block;
+	width: 230px;
+	height: 130px;
+	vertical-align: top;
+/*	background-color: red;*/
+/*	border-bottom-left-radius: 12px;*/
+	
+	
+}
 
+/*
+.third-part li:before {
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	
+}
+*/
 
+.top-left {
+	width: 5px;
+	height: 5px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+}
 
+.top-right {
+	width: 15px;
+	height: 15px;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.bottom-right {
+	width: 15px;
+	height: 15px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.bottom-left {
+	width: 15px;
+	height: 15px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
 
 
 
