@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-decoration: none;
 }
 
 .container {
@@ -21,3 +22,28 @@ h3 {
 	font-family: 'Proba W01 Regular', 'fallback-font';
 }
 
+/*--------------- MENU ----------------------*/
+
+menu {
+	background-color: #000;
+}
+
+menu ul {
+	display: block;
+}
+
+menu li {
+	display: inline-block;
+}
+
+menu li:after {
+	content: "";
+	display: block;
+	border-bottom: 3px dashed #695938;
+	margin-bottom: 10px;
+	color: white;
+}
+menu a {
+	display: inline-block;
+	color: #fff;
+}
