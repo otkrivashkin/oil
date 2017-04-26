@@ -159,7 +159,46 @@ menu a {
 	font-size: 27px;
 }
 
+.first-part form {
+	position: absolute;
+	background-color: #fff;
+	width: 375px;
+	height: 435px;
+	top:430px;
+}
 
+.first-part form p,
+.first-part form input,
+.first-part form button {
+	display: block;
+}
+
+.first-part form p:nth-child(1) {
+	padding: 30px;
+}
+
+.first-part form p:last-child {
+	padding: 0 10px 0 40px;
+}
+
+.first-part form p:last-child span:last-child {
+	display: block;
+	color: #db422c;
+}
+.first-part form input,
+.first-part form button {
+	padding: 10px;
+	width: 80%;
+	border-radius: 5px;
+	margin: auto;
+	margin-bottom: 25px;
+	font-size: 23px;
+}
+
+ .first-part form button {
+	background-color: #db422c;
+	color: #fff;
+}
 
 
 
