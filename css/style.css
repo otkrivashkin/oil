@@ -345,6 +345,7 @@ menu a {
 
 .fourth-part .box {
 	margin-top: 70px;
+	margin-left: 60px;
 }
 
 .fourth-part h3 {
@@ -354,7 +355,7 @@ menu a {
 
 .fourth-part li {
 	display: inline-block;
-	width: 45%;
+	width: 44%;
 	vertical-align: top;	
 	position: relative;
 }
