@@ -331,16 +331,62 @@ menu a {
 	background:url(../img/partner/sibyr.png) center center no-repeat;
 }
 
+/*---------------------------- FOURTH-PART -----------------------------------*/
 
+.fourth-part {
+	background: url(../img/bg/bg_white_rombs.jpg) no-repeat 0 0;
+	background-size: cover;
+	height: 720px;
+}
 
+.fourth-part .container {
+	padding: 70px 0 0 0;
+}
 
+.fourth-part .box {
+	margin-top: 70px;
+}
 
+.fourth-part h3 {
+	font-weight: 700;
+	width: 95%;
+}
 
+.fourth-part li {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;	
+	position: relative;
+}
 
+.fourth-part li:before {
+	content: "";
+	display: block;
+	background: url(../img/icon/oildrop.png) no-repeat 0 0;
+	width: 47px;
+	height: 78px;
+	position: absolute;
+	left: -60px;
+	top: -30px;
+}
 
+.fourth-part ul li:nth-child(1) {
+	margin: 0 90px 80px 0;
+}
 
+.fourth-part li p:nth-child(1):after {
+	content: "";
+	display: block;
+	border-bottom: 1px solid black;
+	width: 40px;
+	margin: 10px 0;
+}
 
+.fourth-part .drop {
+	background: url(../img/icon/oildrop.png) no-repeat 0 0;
+}
 
+/*------------------ FIFTH-PART ---------------------------------*/
 
 
 
