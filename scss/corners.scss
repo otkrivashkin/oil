@@ -1,0 +1,61 @@
+@mixin corner-borders($corner-width: 1px, $corner-size: 1px, $color-border: #272727, $color-background: #0f0f0f) {
+    position: relative;
+    border: $corner-width solid $color-border;
+    background-color: $color-background;
+
+    &::before {
+      content: "";
+      z-index: 0;
+      position: absolute;
+      top: -$corner-width;
+      bottom: -$corner-width;
+      left: $corner-size;
+      right: $corner-size;
+      background-color: $color-background;
+    }
+
+    &::after {
+      content: "";
+      z-index: 0;
+      position: absolute;
+      top: $corner-size;
+      bottom: $corner-size;
+      left: -$corner-width;
+      right: -$corner-width;
+      background-color: $color-background;
+    }
+}
+
+.border {
+  display: inline-block;
+}
+
+.border-1 {
+  @include corner-borders;
+}
+
+.border-2 {
+  @include corner-borders(3px, 10px);
+}
+
+.border-3 {
+  @include corner-borders(5px, 2px);
+}
+
+.border-4 {
+  @include corner-borders(10px, 40px);
+}
+
+.content {
+  box-sizing: border-box;
+  position: relative;
+  padding: 5px;
+  min-width: 100px;
+  min-height: 100px;
+  z-index: 1;
+}
+  
+.content-2 {
+  margin: 5px;
+  border: 1px solid #000;
+}
